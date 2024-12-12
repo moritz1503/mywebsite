@@ -16,9 +16,10 @@
             background-color: #f9f9f9;
             color: #333;
             display: flex;
-            justify-content: center;
+            flex-direction: column;
             align-items: center;
             height: 100vh;
+            justify-content: center;
             text-align: center;
         }
 
@@ -63,23 +64,29 @@
             padding: 20px;
             border-radius: 10px;
             box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            max-width: 700px;
+            width: 90%;
         }
 
         .partner-info h2 {
             color: #118900;
+            margin-bottom: 15px;
         }
 
         .partner-info p {
             color: #333;
+            line-height: 1.5;
         }
 
         /* Fortschritt-Anzeige */
         .progress-container {
             margin-top: 20px;
+            width: 100%;
+            max-width: 700px;
         }
 
         .progress-bar {
-            width: 80%;
+            width: 100%;
             height: 20px;
             background-color: #ccc;
             border-radius: 10px;
@@ -100,7 +107,7 @@
     <div>
         <!-- Logo -->
         <div class="logo">
-            <a href="/shopwise/home">
+            <a href="">
                 <span class="logo-text">Shopwis</span><span class="logo-e">e</span>
             </a>
         </div>
@@ -109,10 +116,6 @@
         <p class="development-note">
             Diese Webseite ist aktuell <span class="highlight">in Entwicklung</span>. Bleib dran für Updates!
         </p>
-
-        <!-- Partner-Anwerbung -->
-
-
         <!-- Fortschritt-Anzeige -->
         <div class="progress-container">
             <div class="progress-bar">
