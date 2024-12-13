@@ -1,7 +1,7 @@
 RewriteEngine On
 
 # Weiterleitung von /home auf index.html
-RewriteRule ^home$ index.html [L]
+RewriteRule ^index$ index.html [L]
 
 # Weiterleitung von /info auf info.html
 RewriteRule ^info$ info.html [L]
